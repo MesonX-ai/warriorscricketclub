@@ -25,7 +25,6 @@ img {
 /** Logo **/
 #logo {
 	/* Horizontally anchored to the left by the flex parent (#header > div) */
-	margin-top: -15px;
 }
 /** Navigation **/
 #navigation {
