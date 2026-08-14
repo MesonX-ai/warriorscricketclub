@@ -25,6 +25,12 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# local IDE settings (contains credentials - never commit)
+.vscode/
+
+# large media - exclude from git
+*.mp4
+
 # vercel
 .vercel
 
