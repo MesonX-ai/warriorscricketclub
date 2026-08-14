@@ -1,4 +1,8 @@
 User-agent: *
+Allow: /
 Disallow: /css/
 Disallow: /images/
 Disallow: /js/
+
+Sitemap: https://warriorscricketclub.us/sitemap.xml
+

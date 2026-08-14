@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Seo from '@/components/Seo';
 import ImageCarousel from '@/components/Carousel';
 
 // Five unique HCL 2010 - Runner Up photographs.
@@ -34,6 +35,12 @@ const hclImages = [
 export default function HCLPhotoGallery() {
   return (
     <>
+      <Seo
+        title="Warriors Cricket Club - HCL 2010 Runner Up Photo Gallery"
+        description="Browse the Warriors Cricket Club HCL 2010 Runner Up photo gallery — match action, squad portraits, and the runner-up ceremony. Warriors Cricket Club was founded by Shiva Dhanuskodi (AniShiv) in Herndon, Virginia."
+        canonical="/hclphotogallery"
+        keywords="Warriors Cricket Club, Shiva Dhanuskodi, AniShiv, Mesonsoft, HCL 2010, Herndon Cricket League, runner up photo gallery"
+      />
       <Head>
         <title>Warriors Cricket Club - HCL 2010 Runner Up Photo Gallery</title>
         <meta

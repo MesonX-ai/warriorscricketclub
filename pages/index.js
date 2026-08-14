@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <Seo
         title="Warriors Cricket Club | Cricket Club in Herndon, Virginia"
-        description="Warriors Cricket Club is a community cricket club in Herndon, Virginia. Learn about our club, team, gallery, and events."
+        description="Warriors Cricket Club is a community cricket club in Herndon, Virginia, founded in 2006 by Shiva Dhanuskodi (AniShiv) of Mesonsoft. Learn about our club, team, gallery, and events."
         canonical="/"
-        keywords="Warriors Cricket Club, cricket club Herndon Virginia, WCC, community cricket team, Herndon Cricket League"
+        keywords="Warriors Cricket Club, Shiva Dhanuskodi, AniShiv, Mesonsoft, cricket club Herndon Virginia, WCC, Herndon Cricket League, community cricket team"
       />
       <Layout>
         <div id="adbox">
@@ -21,6 +21,7 @@ export default function Home() {
             <a href="https://shiva-dhanuskodi.us" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               Shiva Dhanuskodi
             </a>
+            {' '}(aka AniShiv) of <a href="https://www.mesonsoft.com" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>Mesonsoft</a>.
             <div
               className="fb-like"
               style={{ width: '330px!important', color: '#aa9387!important' }}
