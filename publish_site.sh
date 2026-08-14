@@ -96,7 +96,6 @@ fi
 
 echo "Syncing ./out/ to $FTP_HOST:$FTP_REMOTE_DIR/ ..."
 # lftp mirror --reverse uploads the local ./out build to the existing server folder.
-#   --checksum : only transfers files whose content differs (skips unchanged files).
 #   --no-perms : avoids changing file permissions (safer on shared hosting).
 #   --verbose  : prints each transferred file.
 # Note: no --delete is used so unrelated existing server folders (e.g. .well-known,
@@ -104,7 +103,7 @@ echo "Syncing ./out/ to $FTP_HOST:$FTP_REMOTE_DIR/ ..."
 lftp -u "$FTP_USER","$FTP_PASS" "$FTP_HOST" -p "$FTP_PORT" -e "
   set ssl:verify-certificate no;
   set ftp:ssl-allow no;
-  mirror --reverse --checksum --no-perms --verbose out/ $FTP_REMOTE_DIR/;
+  mirror --reverse --no-perms --verbose out/ $FTP_REMOTE_DIR/;
   bye
 "
 
