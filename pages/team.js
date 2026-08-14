@@ -25,28 +25,28 @@ export default function Team() {
           <img src="/images/Warriors_Team_2018.png" className="banner" alt="Warriors Cricket Club team photo from 2018" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors2019_1.png" width="896" className="banner" alt="Warriors Cricket Club squad photo from 2019" />
+          <img src="/images/Warriors2019_1.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club squad photo from 2019" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors2019_2.png" width="896" className="banner" alt="Warriors Cricket Club players in action" />
+          <img src="/images/Warriors2019_2.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club players in action" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors2019_3.png" width="896" className="banner" alt="Warriors Cricket Club cricket team group photo" />
+          <img src="/images/Warriors2019_3.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club cricket team group photo" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors2019_4.png" width="896" className="banner" alt="Warriors Cricket Club official team image" />
+          <img src="/images/Warriors2019_4.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club official team image" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors2019_5.png" width="896" className="banner" alt="Warriors Cricket Club team photo featuring players" />
+          <img src="/images/Warriors2019_5.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club team photo featuring players" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors_Squad_2018_1.png" width="896" className="banner" alt="Warriors Cricket Club squad photo from the 2018 season" />
+          <img src="/images/Warriors_Squad_2018_1.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club squad photo from the 2018 season" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors_Squad_2018_2.png" width="896" className="banner" alt="Warriors Cricket Club players line-up for 2018" />
+          <img src="/images/Warriors_Squad_2018_2.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club players line-up for 2018" />
         </div>
         <div id="adbox">
-          <img src="/images/Warriors_Squad_2018_3.png" width="896" className="banner" alt="Warriors Cricket Club squad details and team photo" />
+          <img src="/images/Warriors_Squad_2018_3.png" width="896" className="banner team-vignette" alt="Warriors Cricket Club squad details and team photo" />
         </div>
       </Layout>
     </>

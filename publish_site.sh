@@ -17,7 +17,7 @@ FTP_HOST="mesonsoft.com"
 FTP_PORT="21"
 FTP_USER="mesonsoft@mesonsoft.com"
 FTP_PASS='Rena!ssancE3'
-FTP_REMOTE_DIR="/public_html/warriorscricketclub"
+FTP_REMOTE_DIR="/warriorscricketclub"
 
 # ---- Step 1: Build Next.js ----
 echo "=============================================="

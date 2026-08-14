@@ -127,6 +127,12 @@ img {
 .banner{
 	margin-top: 25px;
 }
+
+/* Feathered & blurred edges (vignette effect) + light shadow applied to team photos */
+.team-vignette {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28), inset 0 0 70px rgba(0, 0, 0, 0.55);
+	border-radius: 24px;
+}
 #adbox p {
 	width: 600px;
 	text-align: center;
